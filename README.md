@@ -40,5 +40,5 @@ setprefix
 _This bot is open-source and available on github._
 
 **Other information:**
-_Hosting service: Heroku_
-_Skin API: Minotar API available at http://minotar.net/ _
+Hosting service: Heroku || 
+Skin API: Minotar API available at http://minotar.net/ _
