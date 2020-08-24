@@ -65,6 +65,8 @@ client.on('message', msg => {
   const command = args.shift().toLowerCase();
 
   if(command === 'grab') {
+      if (args.length < 3) return msg.channel.send('Minimum character limit is 3')
+      else if (args.length > 14) return msg.channel.send('Maximum character limit is 14')
 
     var url = "https://minotar.net/body/" + args
     
@@ -90,6 +92,8 @@ client.on('message', msg => {
   const command = args.shift().toLowerCase();
   
   if(command === 'download-skin') {
+      if (args.length < 3) return msg.channel.send('Minimum character limit is 3')
+      else if (args.length > 14) return msg.channel.send('Maximum character limit is 14')
     let downloadembed = new MessageEmbed()
       .setColor('#0099ff')
       .setTitle(`Click here to download skin of: ${args}`)
