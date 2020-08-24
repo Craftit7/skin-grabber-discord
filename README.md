@@ -1,5 +1,5 @@
 #Skin Grabber 
-
+[![Run on Repl.it](https://repl.it/badge/github/TeamRazen/skin-grabber-discord)](https://repl.it/github/TeamRazen/skin-grabber-discord)
 **A Basic Discord bot to grab minecraft skins and display them in your server using the Minotar API.**
 
 _Commands:_
