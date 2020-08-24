@@ -65,6 +65,7 @@ client.on('message', msg => {
   const command = args.shift().toLowerCase();
 
   if(command === 'grab') {
+    console.log(args)
     if (args.length < 3) return msg.channel.send('Minimum character limit is 3')
     if (args.length > 14) return msg.channel.send('Maximum character limit is 14')
 
